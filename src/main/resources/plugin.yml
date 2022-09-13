@@ -1,0 +1,14 @@
+name: ACClans
+version: '${project.version}'
+main: com.gmail.antcoreservices.acclans.ACClans
+api-version: 1.17
+prefix: AntCore Clans
+softdepend: [ AntCore ]
+authors: [ Antritus ]
+description: Clans plugin
+
+commands:
+  clan:
+    description: Command for the plugin!
+    permission: antcore.clans.use
+    permission-message: You do not have enough permissions to use this plugin!
